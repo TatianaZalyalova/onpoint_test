@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Gilroy Light";
+  src: url("../fonts/Gilroy-Light.eot");
+  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Light.woff") format("woff"),
+    url("../fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy Regular";
+  src: url("../fonts/Gilroy-Regular.eot");
+  src: url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Regular.woff") format("woff"),
+    url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy Extra Bold";
+  src: url("../fonts/Gilroy-ExtraBold.eot");
+  src: url("../fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-ExtraBold.woff") format("woff"),
+    url("../fonts/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy Ultra Light";
+  src: url("../fonts/Gilroy-UltraLight.eot");
+  src: url("../fonts/Gilroy-UltraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-UltraLight.woff") format("woff"),
+    url("../fonts/Gilroy-UltraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Pro Regular";
+  src: url("../fonts/DINPro.eot");
+  src: url("../fonts/DINPro.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DINPro.woff") format("woff"),
+    url("../fonts/DINPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Pro Bold";
+  src: url("../fonts/DINPro-Bold.eot");
+  src: url("../fonts/DINPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DINPro-Bold.woff") format("woff"),
+    url("../fonts/DINPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.2;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.btn {
+  font-size: 27px;
+  line-height: 1;
+  font-family: "DIN Pro Regular";
+  color: rgb(23, 23, 23);
+  background-color: rgb(255, 106, 159);
+  width: 263px;
+  height: 80px;
+  padding-left: 61px;
+  border-radius: 80px;
+  position: relative;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+p + p {
+  margin-top: 20px;
+}
+
+.header {
+  padding-top: 27px;
+  padding-bottom: 24px;
+  padding-left: 66px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  position: relative;
+  z-index: 1;
+  padding-left: 70px;
+  margin-top: -39px;
+}

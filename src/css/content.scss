@@ -1,0 +1,129 @@
+.content {
+  padding-top: 135px;
+  padding-left: 68px;
+  background-image: url(../img/content__bg.png);
+  background-size: cover;
+  height: 100%;
+  font-family: "DIN Pro Regular";
+  width: 100%;
+  position: relative;
+
+  .content__title {
+    font-size: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 46px;
+  }
+
+  .content__wrap {
+    z-index: 1;
+  }
+
+  .content__text {
+    font-size: 22px;
+    line-height: 30px;
+    box-shadow: 0 10px 125px 55px rgba($color: #9db9c6, $alpha: 0.39);
+    width: 776px;
+    height: 445px;
+    background-color: #ffffff;
+    border-radius: 41px;
+    overflow-y: scroll;
+    position: relative;
+    overflow: auto;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    margin-left: 50px;
+
+    .bold {
+      font-family: "DIN Pro Bold";
+    }
+  }
+
+  .sperm {
+    position: absolute;
+  }
+
+  .sperm-1 {
+    top: 154px;
+    right: -75px;
+  }
+  .sperm-2 {
+    top: 177px;
+    right: -75px;
+  }
+  .sperm-3 {
+    top: 179px;
+    right: -75px;
+  }
+
+  .sperm-4 {
+    bottom: 197px;
+    right: -75px;
+  }
+  .sperm-5 {
+    bottom: 95px;
+    right: -74px;
+  }
+
+  .content__wrap {
+    position: relative;
+    .content__scroll {
+      position: absolute;
+      left: 12px;
+      bottom: 1px;
+      top: 9px;
+      width: 5px;
+      background-color: #000000;
+      z-index: 2;
+      .scrollbar {
+        position: absolute;
+        left: -8px;
+        height: 30px;
+        width: 20px;
+        border-radius: 10px;
+        background-color: rgb(207, 87, 141);
+        z-index: 3;
+      }
+    }
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.visual {
+  .sperm {
+    transition-property: top, right, bottom, left, opacity;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+  }
+  .sperm-1 {
+    top: 79px;
+    right: 0px;
+  }
+
+  .sperm-2 {
+    top: 102px;
+    right: 0px;
+  }
+
+  .sperm-3 {
+    top: 104px;
+    right: 0px;
+  }
+
+  .sperm-4 {
+    bottom: 272px;
+    right: 0;
+  }
+
+  .sperm-5 {
+    bottom: 170px;
+    right: 1px;
+  }
+}

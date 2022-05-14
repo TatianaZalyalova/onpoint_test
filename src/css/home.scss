@@ -1,0 +1,150 @@
+.home {
+  padding-left: 66px;
+  padding-top: 100px;
+  background: url(../img/home__bg.png);
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  padding-bottom: 223px;
+  .home__title {
+    margin-top: 63px;
+    text-transform: uppercase;
+    .accent {
+      font-size: 109px;
+      font-family: "Gilroy Light";
+      letter-spacing: 6px;
+      position: relative;
+      z-index: 1;
+      line-height: 118px;
+    }
+    .small {
+      font-size: 27px;
+      font-family: "DIN Pro Regular";
+      font-weight: 500;
+      letter-spacing: 2px;
+      line-height: 27px;
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+
+    .bold {
+      font-family: "Gilroy Extra Bold";
+    }
+  }
+
+  .home__next.btn {
+    width: 289px;
+    margin-left: auto;
+    display: flex;
+    margin-right: 108px;
+    margin-top: -100px;
+    align-items: center;
+    padding-left: 88px;
+    height: 80px;
+  }
+
+  .home__next:before {
+    content: "";
+    display: block;
+    width: 63px;
+    height: 61px;
+    border-radius: 50%;
+    background-image: url(../img/button__bg.png);
+    position: absolute;
+    z-index: 1;
+    left: 13px;
+    top: 9px;
+    background-size: cover;
+  }
+
+  .float {
+    position: absolute;
+  }
+
+  .float.virus-1 {
+    right: 52px;
+    top: 206px;
+    animation: virus-1 7s infinite linear;
+    z-index: 4;
+  }
+
+  .float.virus-2 {
+    right: 217px;
+    top: 67px;
+    animation: virus-2 6s infinite linear;
+    z-index: 3;
+  }
+
+  .float.virus-3 {
+    right: 255px;
+    bottom: 0px;
+    animation: virus-3 6s infinite linear;
+  }
+
+  .float.virus-4 {
+    left: 22px;
+    bottom: 195px;
+    animation: virus-4 5s infinite linear;
+    transform-origin: 50% 150px; /* 150px = path radius */
+  }
+
+  .float.sperm {
+    right: 0px;
+    top: 160px;
+    z-index: 2;
+  }
+}
+
+@keyframes virus-1 {
+  from {
+    transform: rotate(180deg) translateX(50px) rotate(180deg);
+  }
+  50% {
+    transform: translate(-120px, -50px) rotate(180deg);
+  }
+  to {
+    transform: rotate(540deg) translateX(50px) rotate(540deg);
+  }
+}
+.avatar {
+  animation: spin 3s infinite linear;
+  transform-origin: 50% 150px; /* 150px = path radius */
+}
+
+@keyframes virus-2 {
+  from {
+    transform: scale(1, 1) translateX(0px);
+  }
+  50% {
+    transform: scale(1.1, 1.1) translate(50px, 100px);
+  }
+  to {
+    transform: scale(1, 1) translateX(0px);
+  }
+}
+
+@keyframes virus-3 {
+  from {
+    transform: scale(1, 1) translateX(0px);
+  }
+  50% {
+    transform: scale(1.1, 1.1) translateX(-20px);
+  }
+  to {
+    transform: scale(1, 1) translateX(0px);
+  }
+}
+@keyframes virus-4 {
+  from {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(10px, 10px);
+  }
+  60% {
+    transform: translate(50px, 70px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
